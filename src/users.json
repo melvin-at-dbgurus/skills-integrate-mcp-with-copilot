@@ -1,0 +1,20 @@
+[
+  {
+    "username": "teacher1",
+    "password": "teachpass123",
+    "email": "teacher1@mergington.edu",
+    "role": "admin"
+  },
+  {
+    "username": "student1",
+    "password": "studypass123",
+    "email": "student1@mergington.edu",
+    "role": "user"
+  },
+  {
+    "username": "student2",
+    "password": "studypass456",
+    "email": "student2@mergington.edu",
+    "role": "user"
+  }
+]
