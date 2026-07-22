@@ -8,8 +8,22 @@
   </head>
   <body>
     <header>
-      <h1>Mergington High School</h1>
-      <h2>Extracurricular Activities</h2>
+      <div class="header-top-row">
+        <div>
+          <h1>Mergington High School</h1>
+          <h2>Extracurricular Activities</h2>
+        </div>
+        <section id="auth-container" aria-label="Authentication">
+          <p id="auth-status">Not logged in</p>
+          <form id="login-form">
+            <input type="text" id="username" required placeholder="Username" />
+            <input type="password" id="password" required placeholder="Password" />
+            <button type="submit">Log In</button>
+          </form>
+          <button id="logout-btn" class="hidden" type="button">Log Out</button>
+          <div id="auth-message" class="hidden"></div>
+        </section>
+      </div>
     </header>
 
     <main>
